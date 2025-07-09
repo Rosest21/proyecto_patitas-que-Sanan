@@ -335,13 +335,20 @@ body {
 }
 
 footer {
-    background-color: #33302A;
-    color: #fff;
+    background-color: #33302A#FAF5E5;
+  
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
+footer a {
+    color: #00bfff; /* Azul cielo para los enlaces en el pie de página. */
+    text-decoration: none; /* Elimina el subrayado de los enlaces en el pie de página. */
+}
 
+footer a:hover {
+    text-decoration: underline; /* Añade un subrayado al pasar el ratón sobre los enlaces. */
+}
 footer a {
     color: #E0A922;
     text-decoration: none;
@@ -351,13 +358,6 @@ footer a {
 
 
 
-button, a.button {
-    background-color: #B6933A;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
+
+
 
